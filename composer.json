@@ -1,0 +1,20 @@
+{
+    "name": "webgrilo/theme",
+    "description": "desenvolvimento de tema para wordpress",
+    "type": "theme",
+    "license": "GNU GLPv3",
+    "autoload": {
+        "psr-4": {
+            "Webgrilo\\Theme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "grilo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+         "monolog/monolog":"3.x-dev"
+}
+}
